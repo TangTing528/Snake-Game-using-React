@@ -1,0 +1,17 @@
+.GameOver-frame {
+  position: relative;
+  top: 40%;
+  width: 50%;
+  height:80px;
+  text-Align: center;
+  color: white;
+  visibility: hidden;
+  background-color: black;
+  margin: auto;
+}
+
+.GameOver-content{
+  font-Weight: bold;
+  font-Size: 50px;
+  padding-top: 10px;
+}

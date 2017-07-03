@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-board {
+  width: 700px;
+  height: 700px;
+  background-color: grey;
+  margin: auto;
+  margin-top: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  position: relative;
+  display:inline-block;
+}
+
+.App-dashBoard {
+  width: 300px;
+  height: 700px;
+  margin: auto;
+  margin-top: 30px;
+  margin-left: 30px;
+  display:inline-block;
+  vertical-align: top;
+  text-align: center;
+  font-size: 30px;
+}
+
+.newGame {
+  height: 50px;
+  width: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+  margin-top: 30px;
+  font-size: 15px;
+  visibility: hidden;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
